@@ -22,6 +22,6 @@ app.use((err, req, res, next) => {
 });
 app.use("/api/atm", require("./routes/atmRoutes"));
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 5001, () => {
   console.log("Server Running");
 });
